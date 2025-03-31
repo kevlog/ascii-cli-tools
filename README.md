@@ -23,13 +23,19 @@ A simple command-line tool for **ASCII and text conversion**. This tool allows y
 - ```git clone https://github.com/yourusername/ascii-tools.git```
 - ```cd ascii-tools```
 
+---
+
 ### 2️⃣ Install dependencies
 Make sure you have Python 3 installed, then run:
 - ```pip install -r requirements.txt```
 
+---
+
 ## 🎮 Usage
 Run the script using:
 - ```python main.py```
+
+---
 
 ## 📌 Menu Options:
 1. ASCII to Text
@@ -37,13 +43,19 @@ Run the script using:
 3. Generate ASCII Art
 4. Unidecode (Unicode to ASCII)
 
+---
+
 ### ✅ Example 1: Convert ASCII (Hex) to Text
 - ```Input: 48656C6C6F```
 - ```Output: Hello```
 
+---
+
 ### ✅ Example 2: Convert Text to ASCII (Hex)
 - ```Input: Hello```
 - ```Output: 48656C6C6F```
+
+---
 
 ### ✅ Example 3: Generate ASCII Art
 - ```Input: ASCII```
@@ -55,9 +67,13 @@ Run the script using:
    ██║  ██║███████╗╚██████╗██║███████╗
    ╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝╚══════╝
 
+---
+
 ### ✅ Example 4: Unicode to ASCII
 - ```Input: Çağrı Şükrü```
 - ```Output: Cagri Sukru```
+
+---
 
 ## 🛠 Requirements
 - Python 3.7+
@@ -67,9 +83,13 @@ Required Libraries:
 - pyfiglet
 - unidecode
 
+---
+
 ## 💡 Error Handling
 ✅ Wrong input format? The program will validate and display an error message.
 ✅ Pressed CTRL + C? The program will exit safely without crashing.
+
+---
 
 ## 🤝 Contributing
 Want to improve this tool? Feel free to contribute!
@@ -79,9 +99,15 @@ Want to improve this tool? Feel free to contribute!
 4. Push to your branch: ```git push origin feature-new-feature```
 5. Open a Pull Request
 
+---
+
 ## 📜 License
 This project is open-source under the GNU GPL v3.
+
+---
 
 ## 🌟 Support the Project!
 ⭐ Star this repo if you find it useful!
 🚀 Happy coding!
+
+---
