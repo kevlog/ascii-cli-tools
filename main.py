@@ -26,20 +26,23 @@ while True:
             except ValueError:
                 print("Error: Format hex tidak valid atau bukan teks yang bisa di-decode!\a")
                 time.sleep(1)
-
+            break
+            
         elif menu == 2:
             text = str(input("Masukkan text : "))
             ascii_hex = binascii.hexlify(text.encode()).decode()
             print("Hasil : ", ascii_hex.upper())
-        
+            break
         elif menu == 3:
             plain_text = str(input("Masukkan text : "))
             ascii_art = pyfiglet.figlet_format(plain_text)
             print(ascii_art)
+            break
         elif menu == 4:
             unicode_text = input("Masukkan unicode : ")
             ascii_text  = unidecode(unicode_text)
             print(ascii_text)
+            break
         elif menu == 5:
             print("Terima kasih.")
             time.sleep(1)
