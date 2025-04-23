@@ -20,8 +20,8 @@ A simple command-line tool for **ASCII and text conversion**. This tool allows y
 
 ## 📥 Installation
 ### 1️⃣ Clone the repository
-- ```git clone https://github.com/yourusername/ascii-tools.git```
-- ```cd ascii-tools```
+- ```https://github.com/kevlog/ascii-cli-tools```
+- ```cd ascii-cli-tools```
 
 ---
 
